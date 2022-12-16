@@ -1,0 +1,104 @@
+/*global CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+} 
+h1{
+    font-size: 2.6rem;
+
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3 rem;
+    font-weight: normal;
+}
+h4 ,h5 {
+    font-size: 2.8rem;
+}
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+/*Header */
+.main-head{
+    background: #2b4838;
+    color: #ffffff ;
+}
+
+nav{
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 30rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex: 1 1 30rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+}
+
+
+ul {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 0;
+}
+
+
+/* hero */
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgb(0 ,0,0, 0.7), transparent), url("images1/alvin-lenin-2ta8OjluZuI-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero h3{
+    padding: 4rem;
+}
+
+button{
+    padding: 1.5rem;
+    background: #485e51;
+    color: #f5f5f5;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
