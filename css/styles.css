@@ -591,3 +591,7 @@ form select {
 #RegisterForm button{
     margin-top: 50px;
 }
+
+.categories .col-3{
+    cursor: pointer;
+}
